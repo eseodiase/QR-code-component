@@ -59,10 +59,11 @@
         padding: 0 16px;
         margin: 10px;
      }
+     
   
   /* Mobile & Tablet default */
   @media (min-width: 768px) {
-    body{
+    .wrapper{
     width: 375px;
     height: 812px;
   }
@@ -70,7 +71,7 @@
   
   /* Desktop default */
 @media (min-width: 1440px) {
-  body {
+  .wrapper {
     width: 1440px;
     height: 965px;
   }
