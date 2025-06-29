@@ -1,12 +1,24 @@
+/* CSS color variables */
+:root {
+  --color-body-bg: #D5E1EF;
+  --color-card-bg: #ffffff;     
+  --color-text-1: #1F314F;   
+  --color-text-2: #68778D;
+}
+
 html, body{
       margin: 0;
       padding: 0;
-      background: #D5E1EF;
+      background: var(--color-body-bg);
       height: 100vh;
       font-family: 'Outfit', Sans-Serif;
   }
+    .for-accessibility{
+      text-align: center;
+      visibility: hidden;
+    }
     .attribution { 
-      font-size: 11px; 
+      font-size: 0.6758rem; 
       text-align: center; 
       visibility: hidden; 
     }
@@ -22,18 +34,17 @@ html, body{
     .card{
         width: 320px;
         height: 499px;
-        background: #ffffff;
+        background: var(--color-card-bg);
         -webkit-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
         -moz-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
         box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
         position: absolute;
         text-align: center;
         border-radius: 20px;
-        box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
     }
     .qr-code{
         margin: 10px;
-        padding-top: 5px;
+        padding-block-start: 5px;
     }
     .qr-code img{
         border-radius: 10px;
@@ -45,16 +56,19 @@ html, body{
         font-weight: 700;
         letter-spacing: 0px;
         line-height: 120%;
-        color: #1F314F;
-        font-size: 22px;
-        margin: 10px 10px 16px 10px;
+        color: var(--color-text-1);
+        font-size: 1.375rem;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 16px; 
+        margin-left: 10px;
     }
      .text-preset-2{
         font-weight: 400;
         letter-spacing: 0.2px;
         line-height: 140%;
-        color: #68778D;
-        font-size: 15px;
+        color: var(--color-text-2);
+        font-size: 0.9375rem;
         padding: 0 16px;
         margin: 10px;
      }
