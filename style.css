@@ -32,8 +32,8 @@ html, body{
       min-height: 100vh;
     }
     .card{
-        width: 320px;
-        height: 499px;
+        width: 20rem;
+        height: 31.1875rem;
         background: var(--color-card-bg);
         -webkit-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
         -moz-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
@@ -48,9 +48,9 @@ html, body{
     }
     .qr-code img{
         border-radius: 10px;
-        width: 288px;
-        height: 288px;
-        margin-bottom: 18px;
+        width: 18rem;
+        height: 18rem;
+        margin-block-end: 18px;
     }
     .text-preset-1{
         font-weight: 700;
