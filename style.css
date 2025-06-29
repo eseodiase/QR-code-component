@@ -5,6 +5,7 @@
   --color-text-1: #1F314F;   
   --color-text-2: #68778D;
   --primary-color: hsl(228, 45%, 44%); 
+  --card-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
 }
 
 html, body{
@@ -37,9 +38,9 @@ html, body{
         width: 20rem;
         height: 31.1875rem;
         background: var(--color-card-bg);
-        -webkit-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
-        -moz-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
-        box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+        -webkit-box-shadow: var(--card-box-shadow);
+        -moz-box-shadow: var(--card-box-shadow);
+        box-shadow: var(--card-box-shadow);
         position: absolute;
         text-align: center;
         border-radius: 20px;
