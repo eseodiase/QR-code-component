@@ -8,17 +8,16 @@
   --card-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
   --primary-text-font-size: clamp(0.65rem, 0.5rem + 0.5vw, 0.7rem);
   --text-1-font-size: clamp(1.35rem, 1rem + 1vw, 1.4rem);
-  --text-2-font-size: 15px;
+  --text-2-font-size: 0.9375rem;
 }
 
-html, body{
+    html, body{
       margin: 0;
       padding: 0;
       background: var(--color-body-bg);
-      height: 100vh;
       font-family: 'Outfit', Sans-Serif;
-  }
-    .for-accessibility{
+    }
+    .heading{
       text-align: center;
       visibility: hidden;
     }
@@ -48,15 +47,15 @@ html, body{
         border-radius: 20px;
     }
     .qr-code{
-        margin-inline: 10px;
-        margin-block: 10px;
+        margin-inline: 0.625rem;
+        margin-block: 0.625rem;
         padding-block-start: 5px;
     }
     .qr-code img{
         border-radius: 10px;
         width: 18rem;
         height: 18rem;
-        margin-block-end: 18px;
+        margin-block-end: 1rem;
     }
     .text-preset-1{
         font-weight: 700;
@@ -64,10 +63,10 @@ html, body{
         line-height: 120%;
         color: var(--color-text-1);
         font-size: var(--text-1-font-size);
-        margin-block-start: 10px;
-        margin-inline-end: 10px;
-        margin-block-end: 16px; 
-        margin-inline-start: 10px;
+        margin-block-start: 0.625rem;
+        margin-block-end: 1rem; 
+        margin-inline-start: 0.625rem;
+        margin-inline-end: 0.625rem;
     }
      .text-preset-2{
         font-weight: 400;
@@ -75,10 +74,10 @@ html, body{
         line-height: 140%;
         color: var(--color-text-2);
         font-size: var(--text-2-font-size);
-        padding-inline: 16px;
+        padding-inline: 1rem;
         padding-block: 0;
-        margin-inline: 10px;
-        margin-block: 10px;
+        margin-inline: 0.625rem;
+        margin-block: 0.625rem;
      }
      
   

@@ -32,6 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Built with
 
 - Semantic HTML5 markup
+- Accessibility
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow (developed entirely on mobile device)
