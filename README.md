@@ -72,5 +72,5 @@ Areas I want to focus on in future projects:
 
 ## Author
 
+- LinkedIn - [Ese Odiase](https://ng.linkedin.com/in/ese-g-odiase-220576196)
 - Frontend Mentor - [@eseodiase](https://www.frontendmentor.io/profile/eseodiase)
-```

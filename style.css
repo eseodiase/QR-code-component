@@ -1,83 +1,98 @@
-/* CSS color variables */
+/* 
+Author: Ese Odiase
+*/
+
+/* CSS custom properties */
 :root {
+  /* colors */
   --color-body-bg: #D5E1EF;
-  --color-card-bg: #ffffff;     
-  --color-text-1: #1F314F;   
+  --color-card-bg: #ffffff;
+  --color-text-1: #1F314F;
   --color-text-2: #68778D;
-  --primary-color: hsl(228, 45%, 44%); 
+  --primary-color: hsl(228, 45%, 44%);
   --card-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+  /* font sizes */
   --primary-text-font-size: clamp(0.65rem, 0.5rem + 0.5vw, 0.7rem);
   --text-1-font-size: clamp(1.35rem, 1rem + 1vw, 1.4rem);
   --text-2-font-size: 0.9375rem;
 }
 
-    html, body{
-      margin: 0;
-      padding: 0;
-      background: var(--color-body-bg);
-      font-family: 'Outfit', Sans-Serif;
-    }
-    .heading{
-      text-align: center;
-      visibility: hidden;
-    }
-    .attribution { 
-      font-size: var(--primary-text-font-size);
-      text-align: center; 
-      visibility: hidden; 
-    }
-    .attribution a { 
-      color: var(--primary-color); 
-    }
-    .wrapper{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-    .card{
-        width: 20rem;
-        height: 31.1875rem;
-        background: var(--color-card-bg);
-        -webkit-box-shadow: var(--card-box-shadow);
-        -moz-box-shadow: var(--card-box-shadow);
-        box-shadow: var(--card-box-shadow);
-        position: absolute;
-        text-align: center;
-        border-radius: 20px;
-    }
-    .qr-code{
-        margin-inline: 0.625rem;
-        margin-block: 0.625rem;
-        padding-block-start: 5px;
-    }
-    .qr-code img{
-        border-radius: 10px;
-        width: 18rem;
-        height: 18rem;
-        margin-block-end: 1rem;
-    }
-    .text-preset-1{
-        font-weight: 700;
-        letter-spacing: 0em;
-        line-height: 120%;
-        color: var(--color-text-1);
-        font-size: var(--text-1-font-size);
-        margin-block-start: 0.625rem;
-        margin-block-end: 1rem; 
-        margin-inline-start: 0.625rem;
-        margin-inline-end: 0.625rem;
-    }
-     .text-preset-2{
-        font-weight: 400;
-        letter-spacing: 0.0125em;
-        line-height: 140%;
-        color: var(--color-text-2);
-        font-size: var(--text-2-font-size);
-        padding-inline: 1rem;
-        padding-block: 0;
-        margin-inline: 0.625rem;
-        margin-block: 0.625rem;
-     }
-     
-  
+/* Mobile first workflow */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-body-bg);
+  font-family: 'Outfit', Sans-Serif;
+}
+
+.heading {
+  text-align: center;
+  visibility: hidden;
+}
+
+.attribution {
+  font-size: var(--primary-text-font-size);
+  text-align: center;
+  visibility: hidden;
+}
+
+.attribution a {
+  color: var(--primary-color);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 20rem;
+  height: 31.1875rem;
+  background: var(--color-card-bg);
+  -webkit-box-shadow: var(--card-box-shadow);
+  -moz-box-shadow: var(--card-box-shadow);
+  box-shadow: var(--card-box-shadow);
+  position: absolute;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.qr-code {
+  margin-inline: 0.625rem;
+  margin-block: 0.625rem;
+  padding-block-start: 5px;
+}
+
+.qr-code img {
+  border-radius: 10px;
+  width: 18rem;
+  height: 18rem;
+  margin-block-end: 1rem;
+}
+
+.text-preset-1 {
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 120%;
+  color: var(--color-text-1);
+  font-size: var(--text-1-font-size);
+  margin-block-start: 0.625rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0.625rem;
+  margin-inline-end: 0.625rem;
+}
+
+.text-preset-2 {
+  font-weight: 400;
+  letter-spacing: 0.0125em;
+  line-height: 140%;
+  color: var(--color-text-2);
+  font-size: var(--text-2-font-size);
+  padding-inline: 1rem;
+  padding-block: 0;
+  margin-inline: 0.625rem;
+  margin-block: 0.625rem;
+}
