@@ -67,7 +67,7 @@ Areas I want to focus on in future projects:
 ### Useful resources
 
 - [Figma Help Center](https://help.figma.com/) - Helped me understand how to extract design information
-- [Spck Editor Documentation](https://spck.io/docs) - Essential for mobile development setup
+- [Spck Editor Documentation](https://spck.io/documentation) - Essential for mobile development setup
 - [Screenfly](https://screenfly.org) - Useful for responsive testing without multiple devices
 
 ## Author
